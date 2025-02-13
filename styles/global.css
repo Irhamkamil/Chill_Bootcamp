@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  /* Colors */
+  --color-primary-1: #3254ff;
+  --color-primary-2: #243fdb;
+  --color-primary-3: #192db7;
+  --color-primary-4: #0f1e93;
+  --color-primary-5: #09147a;
+  --text-dark-color-primary: #3a3541de;
+  --text-dark-color-secondary: #3a3541ad;
+  --text-dark-color-disabled: #3a354161;
+  --text-light-color-primary: #ffff;
+  --text-light-color-secondary: #e7e3fcad;
+  --text-light-color-disabled: #e7e3fc61;
+  --c-extra-bg: #3d4142;
+  --c-outline-border: rgba(231, 227, 252, 0.23);
+  --paper-background-color: #22282a;
+  --body-background-color: #2f3334;
+  --page-header-background-color: #181a1c;
+  --border-color: #e7e3fc3b;
+  --field-background-color: #e7e3fc0a;
+
+  /* Typography */
+  --font-primary: Lato;
+  --heading-1: 3rem;
+  --heading-2: 2.5rem;
+  --heading-3: 2rem;
+  --text-large: 18px;
+  --text-medium: 16px;
+  --text-small: 14px;
+  --text-caption: 12px;
+
+  /* Others */
+  --container-width-lg: 88%;
+  --container-width-md: 98%;
+  --transition: all 400ms ease;
+}

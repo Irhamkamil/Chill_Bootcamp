@@ -1,0 +1,220 @@
+@import "global.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-light-color-primary);
+  font-family: var(--font-primary);
+}
+
+/* background */
+.container__auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  overflow: hidden;
+}
+
+.login__bg {
+  background-image: url(/assets/login_bg.jpg);
+}
+
+.register__bg {
+  background-image: url(/assets/register_bg.jpg);
+}
+
+/* content */
+.content__auth {
+  background-color: rgba(24, 26, 28, 0.84);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__page {
+  width: 529px;
+  height: 663px;
+}
+
+.register__page {
+  width: 529px;
+  height: 778px;
+}
+
+.content__auth__header {
+  margin-top: 1.7rem;
+}
+
+.content__auth__header h3 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.form__group {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  width: 449px;
+}
+
+.form__group label {
+  font-size: 1.125rem;
+}
+
+.form__group input {
+  background-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: var(--text-light-secondary);
+  height: 50px;
+  border-radius: 24px;
+  padding: 14px 20px;
+  border: 1px solid var(--c-outline-border);
+  margin-top: 8px;
+}
+
+.form__link {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__link a {
+  color: white;
+}
+
+.form__link span {
+  color: var(--text-light-color-secondary);
+}
+
+.form__submit {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__submit span {
+  color: var(--text-light-color-secondary);
+  margin: 8px 0;
+}
+
+.form__submit button {
+  height: 50px;
+  font-family: "Lato-SemiBold", sans-serif;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid var(--c-outline-border);
+  border-radius: 24px;
+  color: inherit;
+  cursor: pointer;
+}
+
+.form__submit .signin {
+  background-color: var(--c-extra-bg);
+}
+
+.form__submit .google-signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media (max-width: 550px) {
+  .login__page {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .register__page {
+    width: 85%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .content__auth {
+    padding: 15px;
+  }
+
+  .content__auth__logo img {
+    width: 100px;
+  }
+
+  .content__auth__header h3 {
+    font-size: 1.1rem;
+  }
+
+  .content__auth__header span {
+    font-size: 0.7rem;
+  }
+
+  .content__auth__form {
+    width: 95%;
+  }
+
+  .form__group {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .form__group label {
+    font-size: 0.7rem;
+  }
+
+  .form__group input {
+    width: 100%;
+    height: 30px;
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .form__submit button {
+    width: 100%;
+    height: 30px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+  }
+
+  .form__submit span {
+    font-size: 0.7rem;
+  }
+
+  .form__link {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin-top: 10px;
+  }
+
+  .google-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    margin-top: 15px;
+  }
+}
