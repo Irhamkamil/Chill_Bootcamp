@@ -63,6 +63,12 @@ h2 {
   top: 0;
 }
 
+.nav_group-logo {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
 .nav_logo {
   width: 7.5rem;
 }
@@ -73,12 +79,6 @@ h2 {
 
 .nav_logo-small {
   width: 1.5rem;
-}
-
-.nav_group-logo {
-  display: flex;
-  gap: 4rem;
-  align-items: center;
 }
 
 .nav_links {
