@@ -254,7 +254,7 @@ h2 {
 
 .movie-card-horizontal {
   width: 23.5rem;
-  min-width: 250px;
+  /* min-width: 250px; */
   border-radius: 8px;
   flex-shrink: 0;
   overflow: hidden;
@@ -406,7 +406,7 @@ h2 {
 
 .footer-logo {
   flex: 1.2;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .footer-logo img {
@@ -425,7 +425,7 @@ h2 {
   flex: 2.7;
   gap: 1rem;
   margin-left: 10rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .genre-items p {
@@ -450,7 +450,8 @@ h2 {
 
 .bantuan {
   flex: 1;
-  overflow: hidden;
+  margin-left: 1rem;
+  /* overflow: hidden; */
 }
 
 .bantuan p {
@@ -617,7 +618,7 @@ h2 {
   }
 
   .movie-card-horizontal {
-    width: 21.5rem;
+    width: 18.5rem;
   }
 
   .movie-card-vertikal {
